@@ -5,6 +5,7 @@ TEMPLATE = subdirs
 SUBDIRS = src
 
 android {
+} blackberry {
 } else {
     SUBDIRS += tests examples doc
     INSTALLS += htmldocs
