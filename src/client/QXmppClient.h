@@ -90,7 +90,7 @@ public:
         NoError,            ///< No error.
         SocketError,        ///< Error due to TCP socket.
         KeepAliveError,     ///< Error due to no response to a keep alive.
-        XmppStreamError,    ///< Error due to XML stream.
+        XmppStreamError     ///< Error due to XML stream.
     };
 
     /// This enumeration describes a client state.
@@ -98,7 +98,7 @@ public:
     {
         DisconnectedState,  ///< Disconnected from the server.
         ConnectingState,    ///< Trying to connect to the server.
-        ConnectedState,     ///< Connected to the server.
+        ConnectedState      ///< Connected to the server.
     };
 
     QXmppClient(QObject *parent = 0);
